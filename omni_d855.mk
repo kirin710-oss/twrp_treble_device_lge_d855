@@ -34,14 +34,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/dt.img:dt.img \
     $(LOCAL_PATH)/kernel:kernel 
 
-PRODUCT_COPY_FILES += device/lge/d852/recovery/fstab.g3:recovery/root/fstab.g3
+PRODUCT_COPY_FILES += device/lge/d855/recovery/fstab.g3:recovery/root/fstab.g3
 
-PRODUCT_COPY_FILES += device/lge/d852/recovery/parted:recovery/root/sbin/parted
+PRODUCT_COPY_FILES += device/lge/d855/recovery/parted:recovery/root/sbin/parted
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_DEVICE := d852
-PRODUCT_NAME := omni_d852
+PRODUCT_DEVICE := d855
+PRODUCT_NAME := omni_d855
 PRODUCT_BRAND := lge
-PRODUCT_MODEL := LG-D852
+PRODUCT_MODEL := LG-d855
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_GMS_CLIENTID_BASE := android-lge
